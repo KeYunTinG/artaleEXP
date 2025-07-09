@@ -136,27 +136,24 @@
             每分鐘經驗.AutoSize = true;
             每分鐘經驗.Location = new Point(124, 147);
             每分鐘經驗.Name = "每分鐘經驗";
-            每分鐘經驗.Size = new Size(67, 15);
+            每分鐘經驗.Size = new Size(0, 15);
             每分鐘經驗.TabIndex = 10;
-            每分鐘經驗.Text = "每分鐘經驗";
             // 
             // 每十分鐘經驗
             // 
             每十分鐘經驗.AutoSize = true;
             每十分鐘經驗.Location = new Point(136, 176);
             每十分鐘經驗.Name = "每十分鐘經驗";
-            每十分鐘經驗.Size = new Size(79, 15);
+            每十分鐘經驗.Size = new Size(0, 15);
             每十分鐘經驗.TabIndex = 11;
-            每十分鐘經驗.Text = "每十分鐘經驗";
             // 
             // 升級倒數
             // 
             升級倒數.AutoSize = true;
             升級倒數.Location = new Point(112, 203);
             升級倒數.Name = "升級倒數";
-            升級倒數.Size = new Size(55, 15);
+            升級倒數.Size = new Size(0, 15);
             升級倒數.TabIndex = 12;
-            升級倒數.Text = "升級倒數";
             // 
             // label1
             // 
