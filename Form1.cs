@@ -25,6 +25,7 @@ namespace expTool
         private void button1_Click(object sender, EventArgs e)
         {
             擷取畫面();
+            畫面轉資料();
         }
         private void button2_Click(object sender, EventArgs e)
         {
