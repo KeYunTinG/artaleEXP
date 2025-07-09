@@ -161,7 +161,7 @@ namespace expTool
                 {
                     value = 1;
                 }
-                else if (value > 10) // 設定最大值60
+                else if (value > 10) // 設定最大值10
                 {
                     value = 10;
                 }
