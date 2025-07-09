@@ -144,7 +144,7 @@ namespace expTool
         }
         public void 計算經驗()
         {
-            double 每分鐘趴數 = (30.8 - 15.2) / ((間隔分鐘/ 間隔分鐘));
+            double 每分鐘趴數 = (EXP百分比終 - EXP百分比始) / ((間隔分鐘/ 間隔分鐘));
             double 每十分鐘趴數 = 每分鐘趴數 * 10;
             double 升級倒數時間 = (100 - EXP百分比終) / 每分鐘趴數;
 
