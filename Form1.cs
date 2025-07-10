@@ -73,6 +73,8 @@ namespace expTool
             if ((EXP終 > 0) && (EXP百分比終 > 0))
             {
                 計算經驗();
+                EXP始 = EXP終;
+                EXP百分比始 = EXP百分比終;
             }
         }
 
@@ -145,9 +147,9 @@ namespace expTool
         }
         public void 計算經驗()
         {
-            double 每分鐘趴數 = (EXP百分比終 - EXP百分比始) / ((間隔分鐘/ 間隔分鐘));
+            double 每分鐘趴數 = (EXP百分比終 - EXP百分比始) / 間隔分鐘;
             double 每十分鐘趴數 = 每分鐘趴數 * 10;
-            double 升級倒數時間 = (100 - EXP百分比終) / 每分鐘趴數;
+            double 升級倒數時間 = (100 - EXP百分比終) / 每分鐘趴數 * 60;
 
             每分鐘經驗.Text = 每分鐘趴數.ToString("F2");
             每十分鐘經驗.Text = 每十分鐘趴數.ToString("F2");
@@ -170,7 +172,7 @@ namespace expTool
             }
             else
             {
-                MessageBox.Show("請輸入有效的整數");
+                MessageBox.Show("請輸入1~10有效的整數");
                 間隔時間.Text = "1"; // 預設值
             }
         }

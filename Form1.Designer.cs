@@ -49,7 +49,7 @@
             // info
             // 
             info.AutoSize = true;
-            info.Location = new Point(48, 117);
+            info.Location = new Point(12, 117);
             info.Name = "info";
             info.Size = new Size(29, 15);
             info.TabIndex = 0;
@@ -57,35 +57,35 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(12, 35);
+            textBox1.Location = new Point(6, 35);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(39, 23);
             textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(131, 35);
+            textBox2.Location = new Point(68, 35);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(44, 23);
             textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(256, 35);
+            textBox3.Location = new Point(136, 35);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(380, 35);
+            textBox4.Location = new Point(261, 35);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 23);
             textBox4.TabIndex = 4;
             // 
             // button1
             // 
-            button1.Location = new Point(315, 117);
+            button1.Location = new Point(222, 113);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 5;
@@ -95,7 +95,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(401, 117);
+            button2.Location = new Point(303, 113);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 6;
@@ -105,7 +105,7 @@
             // 
             // 間隔時間
             // 
-            間隔時間.Location = new Point(380, 159);
+            間隔時間.Location = new Point(286, 162);
             間隔時間.MaxLength = 10;
             間隔時間.Name = "間隔時間";
             間隔時間.Size = new Size(24, 23);
@@ -116,7 +116,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(319, 162);
+            label2.Location = new Point(222, 165);
             label2.Name = "label2";
             label2.Size = new Size(58, 15);
             label2.TabIndex = 8;
@@ -125,7 +125,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(410, 162);
+            label3.Location = new Point(316, 165);
             label3.Name = "label3";
             label3.Size = new Size(28, 15);
             label3.TabIndex = 9;
@@ -158,7 +158,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(48, 147);
+            label1.Location = new Point(12, 147);
             label1.Name = "label1";
             label1.Size = new Size(70, 15);
             label1.TabIndex = 13;
@@ -167,7 +167,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(48, 176);
+            label4.Location = new Point(12, 176);
             label4.Name = "label4";
             label4.Size = new Size(82, 15);
             label4.TabIndex = 14;
@@ -176,7 +176,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(48, 203);
+            label5.Location = new Point(12, 203);
             label5.Name = "label5";
             label5.Size = new Size(58, 15);
             label5.TabIndex = 15;
@@ -186,7 +186,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(488, 272);
+            ClientSize = new Size(403, 232);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label1);
