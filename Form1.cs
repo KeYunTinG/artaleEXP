@@ -148,11 +148,13 @@ namespace expTool
         public void 計算經驗()
         {
             double 每分鐘趴數 = (EXP百分比終 - EXP百分比始) / 間隔分鐘;
+            double 每分鐘經驗 = (EXP終 - EXP始) / 間隔分鐘;
             double 每十分鐘趴數 = 每分鐘趴數 * 10;
+            double 每十分鐘經驗 = 每分鐘經驗 * 10;
             double 升級倒數時間 = (100 - EXP百分比終) / 每分鐘趴數 * 60;
 
-            每分鐘經驗.Text = 每分鐘趴數.ToString("F2");
-            每十分鐘經驗.Text = 每十分鐘趴數.ToString("F2");
+            每分鐘經驗Text.Text = 每分鐘經驗 + ',' + 每分鐘趴數.ToString("F2");
+            每十分鐘經驗Text.Text = 每十分鐘經驗 + ',' + 每十分鐘趴數.ToString("F2");
             TimeSpan ts = TimeSpan.FromSeconds(升級倒數時間);
             升級倒數.Text = ts.ToString(@"hh\:mm\:ss");
         }
@@ -179,8 +181,8 @@ namespace expTool
         public void reset()
         {
             info.Text = "";
-            每分鐘經驗.Text = "";
-            每十分鐘經驗.Text = "";
+            每分鐘經驗Text.Text = "";
+            每十分鐘經驗Text.Text = "";
             升級倒數.Text = "";
             EXP始 = 0;
             EXP終 = 0;

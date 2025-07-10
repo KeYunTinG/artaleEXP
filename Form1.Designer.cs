@@ -38,8 +38,8 @@
             間隔時間 = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            每分鐘經驗 = new Label();
-            每十分鐘經驗 = new Label();
+            每分鐘經驗Text = new Label();
+            每十分鐘經驗Text = new Label();
             升級倒數 = new Label();
             label1 = new Label();
             label4 = new Label();
@@ -131,26 +131,26 @@
             label3.TabIndex = 9;
             label3.Text = "min";
             // 
-            // 每分鐘經驗
+            // 每分鐘經驗Text
             // 
-            每分鐘經驗.AutoSize = true;
-            每分鐘經驗.Location = new Point(124, 147);
-            每分鐘經驗.Name = "每分鐘經驗";
-            每分鐘經驗.Size = new Size(0, 15);
-            每分鐘經驗.TabIndex = 10;
+            每分鐘經驗Text.AutoSize = true;
+            每分鐘經驗Text.Location = new Point(82, 147);
+            每分鐘經驗Text.Name = "每分鐘經驗Text";
+            每分鐘經驗Text.Size = new Size(0, 15);
+            每分鐘經驗Text.TabIndex = 10;
             // 
-            // 每十分鐘經驗
+            // 每十分鐘經驗Text
             // 
-            每十分鐘經驗.AutoSize = true;
-            每十分鐘經驗.Location = new Point(136, 176);
-            每十分鐘經驗.Name = "每十分鐘經驗";
-            每十分鐘經驗.Size = new Size(0, 15);
-            每十分鐘經驗.TabIndex = 11;
+            每十分鐘經驗Text.AutoSize = true;
+            每十分鐘經驗Text.Location = new Point(94, 176);
+            每十分鐘經驗Text.Name = "每十分鐘經驗Text";
+            每十分鐘經驗Text.Size = new Size(0, 15);
+            每十分鐘經驗Text.TabIndex = 11;
             // 
             // 升級倒數
             // 
             升級倒數.AutoSize = true;
-            升級倒數.Location = new Point(112, 203);
+            升級倒數.Location = new Point(70, 203);
             升級倒數.Name = "升級倒數";
             升級倒數.Size = new Size(0, 15);
             升級倒數.TabIndex = 12;
@@ -191,8 +191,8 @@
             Controls.Add(label4);
             Controls.Add(label1);
             Controls.Add(升級倒數);
-            Controls.Add(每十分鐘經驗);
-            Controls.Add(每分鐘經驗);
+            Controls.Add(每十分鐘經驗Text);
+            Controls.Add(每分鐘經驗Text);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(間隔時間);
@@ -221,8 +221,8 @@
         private TextBox 間隔時間;
         private Label label2;
         private Label label3;
-        private Label 每分鐘經驗;
-        private Label 每十分鐘經驗;
+        private Label 每分鐘經驗Text;
+        private Label 每十分鐘經驗Text;
         private Label 升級倒數;
         private Label label1;
         private Label label4;
