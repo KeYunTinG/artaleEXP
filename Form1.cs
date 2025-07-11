@@ -153,8 +153,8 @@ namespace expTool
             double 每十分鐘經驗 = 每分鐘經驗 * 10;
             double 升級倒數時間 = (100 - EXP百分比終) / 每分鐘趴數 * 60;
 
-            每分鐘經驗Text.Text = 每分鐘經驗 + ',' + 每分鐘趴數.ToString("F2");
-            每十分鐘經驗Text.Text = 每十分鐘經驗 + ',' + 每十分鐘趴數.ToString("F2");
+            每分鐘經驗Text.Text = 每分鐘經驗 + '/' + 每分鐘趴數.ToString("F2");
+            每十分鐘經驗Text.Text = 每十分鐘經驗 + '/' + 每十分鐘趴數.ToString("F2");
             TimeSpan ts = TimeSpan.FromSeconds(升級倒數時間);
             升級倒數.Text = ts.ToString(@"hh\:mm\:ss");
         }
